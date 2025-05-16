@@ -1,0 +1,217 @@
+{
+  "barberos": [
+    {
+      "id": 1,
+      "nombre": "Carlos Rodríguez",
+      "email": "carlos@barbershop.com",
+      "telefono": "3001234567",
+      "bio": "Especialista en cortes modernos con más de 5 años de experiencia. Formado en las mejores academias de barbería de Colombia.",
+      "experiencia": 5,
+      "instagram": "@carlos_barber",
+      "foto": "/images/barbers/carlos.jpg",
+      "especialidades": [1, 3]
+    },
+    {
+      "id": 2,
+      "nombre": "Juan Pérez",
+      "email": "juan@barbershop.com",
+      "telefono": "3009876543",
+      "bio": "Maestro en barbas y degradados, atendiendo desde 2018. Especialista en estilos urbanos y contemporáneos.",
+      "experiencia": 4,
+      "instagram": "@juan_barber",
+      "foto": "/images/barbers/juan.jpg",
+      "especialidades": [1, 2]
+    },
+    {
+      "id": 3,
+      "nombre": "Miguel Ángel Torres",
+      "email": "miguel@barbershop.com",
+      "telefono": "3004567890",
+      "bio": "Experto en coloración y tratamientos capilares. Con 7 años de experiencia en las mejores barberías del país.",
+      "experiencia": 7,
+      "instagram": "@miguel_colorist",
+      "foto": "/images/barbers/miguel.jpg",
+      "especialidades": [1, 4]
+    },
+    {
+      "id": 4,
+      "nombre": "David Martínez",
+      "email": "david@barbershop.com",
+      "telefono": "3007654321",
+      "bio": "Especializado en cortes clásicos y vintage. Amante del detalle y la precisión en cada trabajo.",
+      "experiencia": 3,
+      "instagram": "@david_classic_barber",
+      "foto": "/images/barbers/david.jpg",
+      "especialidades": [1, 2, 3]
+    }
+  ],
+  "especialidades": [
+    { "id": 1, "nombre": "Corte de cabello", "descripcion": "Cortes modernos y clásicos para todos los estilos" },
+    { "id": 2, "nombre": "Barba", "descripcion": "Arreglo, diseño y mantenimiento de barba" },
+    { "id": 3, "nombre": "Degradados", "descripcion": "Especialidad en degradados, desvanecidos y fade" },
+    { "id": 4, "nombre": "Coloración", "descripcion": "Tintes, decoloraciones y tratamientos de color" },
+    { "id": 5, "nombre": "Tratamientos", "descripcion": "Tratamientos capilares e hidratación" }
+  ],
+  "servicios": [
+    {
+      "id": 1,
+      "nombre": "Corte básico",
+      "precio": 25000,
+      "duracion": 30,
+      "descripcion": "Corte de cabello básico con máquina y tijera",
+      "barbero_id": 1
+    },
+    {
+      "id": 2,
+      "nombre": "Corte + barba",
+      "precio": 35000,
+      "duracion": 45,
+      "descripcion": "Corte de cabello completo con arreglo de barba",
+      "barbero_id": 1
+    },
+    {
+      "id": 3,
+      "nombre": "Degradado especial",
+      "precio": 30000,
+      "duracion": 40,
+      "descripcion": "Degradado con diseños personalizados",
+      "barbero_id": 1
+    },
+    {
+      "id": 4,
+      "nombre": "Corte clásico",
+      "precio": 28000,
+      "duracion": 35,
+      "descripcion": "Corte tradicional con tijera y acabado clásico",
+      "barbero_id": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Afeitado tradicional",
+      "precio": 22000,
+      "duracion": 25,
+      "descripcion": "Afeitado con navaja y toalla caliente",
+      "barbero_id": 2
+    },
+    {
+      "id": 6,
+      "nombre": "Coloración completa",
+      "precio": 60000,
+      "duracion": 90,
+      "descripcion": "Aplicación de color y tratamiento",
+      "barbero_id": 3
+    },
+    {
+      "id": 7,
+      "nombre": "Mechas y decoloración",
+      "precio": 70000,
+      "duracion": 120,
+      "descripcion": "Mechas, decoloración y matizado",
+      "barbero_id": 3
+    },
+    {
+      "id": 8,
+      "nombre": "Corte vintage",
+      "precio": 32000,
+      "duracion": 45,
+      "descripcion": "Corte estilo vintage con acabado clásico",
+      "barbero_id": 4
+    },
+    {
+      "id": 9,
+      "nombre": "Paquete completo",
+      "precio": 50000,
+      "duracion": 75,
+      "descripcion": "Corte, barba, cejas y mascarilla facial",
+      "barbero_id": 4
+    }
+  ],
+  "diasTrabajo": [
+    { "id": 1, "barbero_id": 1, "dia": 1, "inicio": "08:00", "fin": "18:00" },
+    { "id": 2, "barbero_id": 1, "dia": 2, "inicio": "08:00", "fin": "18:00" },
+    { "id": 3, "barbero_id": 1, "dia": 3, "inicio": "08:00", "fin": "18:00" },
+    { "id": 4, "barbero_id": 1, "dia": 4, "inicio": "08:00", "fin": "18:00" },
+    { "id": 5, "barbero_id": 1, "dia": 5, "inicio": "08:00", "fin": "18:00" },
+    { "id": 6, "barbero_id": 2, "dia": 1, "inicio": "09:00", "fin": "19:00" },
+    { "id": 7, "barbero_id": 2, "dia": 3, "inicio": "09:00", "fin": "19:00" },
+    { "id": 8, "barbero_id": 2, "dia": 5, "inicio": "09:00", "fin": "19:00" },
+    { "id": 9, "barbero_id": 2, "dia": 6, "inicio": "10:00", "fin": "16:00" },
+    { "id": 10, "barbero_id": 3, "dia": 2, "inicio": "10:00", "fin": "20:00" },
+    { "id": 11, "barbero_id": 3, "dia": 4, "inicio": "10:00", "fin": "20:00" },
+    { "id": 12, "barbero_id": 3, "dia": 6, "inicio": "09:00", "fin": "17:00" },
+    { "id": 13, "barbero_id": 3, "dia": 7, "inicio": "10:00", "fin": "15:00" },
+    { "id": 14, "barbero_id": 4, "dia": 1, "inicio": "14:00", "fin": "22:00" },
+    { "id": 15, "barbero_id": 4, "dia": 2, "inicio": "14:00", "fin": "22:00" },
+    { "id": 16, "barbero_id": 4, "dia": 3, "inicio": "14:00", "fin": "22:00" },
+    { "id": 17, "barbero_id": 4, "dia": 7, "inicio": "12:00", "fin": "18:00" }
+  ],
+  "slots": [
+    { "id": 1, "barbero_id": 1, "inicio": "08:00", "fin": "08:30" },
+    { "id": 2, "barbero_id": 1, "inicio": "08:30", "fin": "09:00" },
+    { "id": 3, "barbero_id": 1, "inicio": "09:00", "fin": "09:30" },
+    { "id": 4, "barbero_id": 1, "inicio": "09:30", "fin": "10:00" },
+    { "id": 5, "barbero_id": 1, "inicio": "10:00", "fin": "10:30" },
+    { "id": 6, "barbero_id": 1, "inicio": "10:30", "fin": "11:00" },
+    { "id": 7, "barbero_id": 1, "inicio": "11:00", "fin": "11:30" },
+    { "id": 8, "barbero_id": 1, "inicio": "11:30", "fin": "12:00" },
+    { "id": 9, "barbero_id": 1, "inicio": "14:00", "fin": "14:30" },
+    { "id": 10, "barbero_id": 1, "inicio": "14:30", "fin": "15:00" },
+    { "id": 11, "barbero_id": 1, "inicio": "15:00", "fin": "15:30" },
+    { "id": 12, "barbero_id": 1, "inicio": "15:30", "fin": "16:00" },
+    { "id": 13, "barbero_id": 1, "inicio": "16:00", "fin": "16:30" },
+    { "id": 14, "barbero_id": 1, "inicio": "16:30", "fin": "17:00" },
+    { "id": 15, "barbero_id": 1, "inicio": "17:00", "fin": "17:30" },
+    { "id": 16, "barbero_id": 1, "inicio": "17:30", "fin": "18:00" },
+
+    { "id": 17, "barbero_id": 2, "inicio": "09:00", "fin": "09:30" },
+    { "id": 18, "barbero_id": 2, "inicio": "09:30", "fin": "10:00" },
+    { "id": 19, "barbero_id": 2, "inicio": "10:00", "fin": "10:30" },
+    { "id": 20, "barbero_id": 2, "inicio": "10:30", "fin": "11:00" },
+    { "id": 21, "barbero_id": 2, "inicio": "11:00", "fin": "11:30" },
+    { "id": 22, "barbero_id": 2, "inicio": "11:30", "fin": "12:00" },
+    { "id": 23, "barbero_id": 2, "inicio": "14:00", "fin": "14:30" },
+    { "id": 24, "barbero_id": 2, "inicio": "14:30", "fin": "15:00" },
+    { "id": 25, "barbero_id": 2, "inicio": "15:00", "fin": "15:30" },
+    { "id": 26, "barbero_id": 2, "inicio": "15:30", "fin": "16:00" },
+    { "id": 27, "barbero_id": 2, "inicio": "16:00", "fin": "16:30" },
+    { "id": 28, "barbero_id": 2, "inicio": "16:30", "fin": "17:00" },
+    { "id": 29, "barbero_id": 2, "inicio": "17:00", "fin": "17:30" },
+    { "id": 30, "barbero_id": 2, "inicio": "17:30", "fin": "18:00" },
+    { "id": 31, "barbero_id": 2, "inicio": "18:00", "fin": "18:30" },
+    { "id": 32, "barbero_id": 2, "inicio": "18:30", "fin": "19:00" },
+
+    { "id": 33, "barbero_id": 3, "inicio": "10:00", "fin": "10:30" },
+    { "id": 34, "barbero_id": 3, "inicio": "10:30", "fin": "11:00" },
+    { "id": 35, "barbero_id": 3, "inicio": "11:00", "fin": "11:30" },
+    { "id": 36, "barbero_id": 3, "inicio": "11:30", "fin": "12:00" },
+    { "id": 37, "barbero_id": 3, "inicio": "12:00", "fin": "12:30" },
+    { "id": 38, "barbero_id": 3, "inicio": "12:30", "fin": "13:00" },
+    { "id": 39, "barbero_id": 3, "inicio": "15:00", "fin": "15:30" },
+    { "id": 40, "barbero_id": 3, "inicio": "15:30", "fin": "16:00" },
+    { "id": 41, "barbero_id": 3, "inicio": "16:00", "fin": "16:30" },
+    { "id": 42, "barbero_id": 3, "inicio": "16:30", "fin": "17:00" },
+    { "id": 43, "barbero_id": 3, "inicio": "17:00", "fin": "17:30" },
+    { "id": 44, "barbero_id": 3, "inicio": "17:30", "fin": "18:00" },
+    { "id": 45, "barbero_id": 3, "inicio": "18:00", "fin": "18:30" },
+    { "id": 46, "barbero_id": 3, "inicio": "18:30", "fin": "19:00" },
+    { "id": 47, "barbero_id": 3, "inicio": "19:00", "fin": "19:30" },
+    { "id": 48, "barbero_id": 3, "inicio": "19:30", "fin": "20:00" },
+
+    { "id": 49, "barbero_id": 4, "inicio": "14:00", "fin": "14:30" },
+    { "id": 50, "barbero_id": 4, "inicio": "14:30", "fin": "15:00" },
+    { "id": 51, "barbero_id": 4, "inicio": "15:00", "fin": "15:30" },
+    { "id": 52, "barbero_id": 4, "inicio": "15:30", "fin": "16:00" },
+    { "id": 53, "barbero_id": 4, "inicio": "16:00", "fin": "16:30" },
+    { "id": 54, "barbero_id": 4, "inicio": "16:30", "fin": "17:00" },
+    { "id": 55, "barbero_id": 4, "inicio": "17:00", "fin": "17:30" },
+    { "id": 56, "barbero_id": 4, "inicio": "17:30", "fin": "18:00" },
+    { "id": 57, "barbero_id": 4, "inicio": "18:00", "fin": "18:30" },
+    { "id": 58, "barbero_id": 4, "inicio": "18:30", "fin": "19:00" },
+    { "id": 59, "barbero_id": 4, "inicio": "19:00", "fin": "19:30" },
+    { "id": 60, "barbero_id": 4, "inicio": "19:30", "fin": "20:00" },
+    { "id": 61, "barbero_id": 4, "inicio": "20:00", "fin": "20:30" },
+    { "id": 62, "barbero_id": 4, "inicio": "20:30", "fin": "21:00" },
+    { "id": 63, "barbero_id": 4, "inicio": "21:00", "fin": "21:30" },
+    { "id": 64, "barbero_id": 4, "inicio": "21:30", "fin": "22:00" }
+  ]
+}
